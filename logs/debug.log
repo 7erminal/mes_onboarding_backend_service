@@ -1,0 +1,858 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /onboard/api/add-business-details
+"OPTIONS /onboard/api/add-business-details HTTP/1.1" 400 66762
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /onboard/api/add-business-details
+"OPTIONS /onboard/api/add-business-details HTTP/1.1" 400 66762
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /onboard/api/add-business-details HTTP/1.1" 301 0
+"OPTIONS /onboard/api/add-business-details HTTP/1.1" 301 0
+"OPTIONS /onboard/api/add-business-details/ HTTP/1.1" 200 184
+"OPTIONS /onboard/api/add-business-details/ HTTP/1.1" 200 184
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/add-business-details/ HTTP/1.1" 200 184
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/add-business-details/ HTTP/1.1" 200 0
+Internal Server Error: /api/onboard/add-business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 24, in create
+    saveBusinessDetails = BusinessDetails(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "BusinessDetails.updated_by" must be a "User" instance.
+"POST /api/onboard/add-business-details/ HTTP/1.1" 500 101047
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/onboard/add-business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 39, in create
+    resp = Resp(statusDesc=message, statusCode=status_, result=user)
+NameError: name 'user' is not defined
+"POST /api/onboard/add-business-details/ HTTP/1.1" 500 90634
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to send response
+"POST /api/onboard/add-business-details/ HTTP/1.1" 202 435
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to send response
+"POST /api/onboard/add-business-details/ HTTP/1.1" 200 435
+About to send response
+"POST /api/onboard/add-business-details/ HTTP/1.1" 200 435
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to send response
+Internal Server Error: /api/onboard/add-business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Resp' object has no attribute 'StatusDesc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 42, in create
+    return Response(BusinessDetailsResponseSerializer(resp).data,status.HTTP_200_OK)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 548, in data
+    ret = super().data
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `StatusDesc` on serializer `BusinessDetailsResponseSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Resp` instance.
+Original exception text was: 'Resp' object has no attribute 'StatusDesc'.
+"POST /api/onboard/add-business-details/ HTTP/1.1" 500 121460
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to send response
+"POST /api/onboard/add-business-details/ HTTP/1.1" 200 435
+About to send response
+"POST /api/onboard/add-business-details/ HTTP/1.1" 200 435
+About to send response
+"POST /api/onboard/add-business-details/ HTTP/1.1" 200 435
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/onboard/business-details/
+"GET /api/onboard/business-details/ HTTP/1.1" 405 40
+Method Not Allowed: /api/onboard/business-details/
+"GET /api/onboard/business-details/ HTTP/1.1" 405 40
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/onboard/business-details/
+"GET /api/onboard/business-details/ HTTP/1.1" 405 40
+Internal Server Error: /api/onboard/get-business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 47, in retrieve
+    saveBusinessDetails = BusinessDetails.objects.all()
+AttributeError: type object 'BusinessDetails' has no attribute 'objects'
+"GET /api/onboard/get-business-details/ HTTP/1.1" 500 88804
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/onboard/get-business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 47, in retrieve
+    saveBusinessDetails = BusinessDetails.objects.all()
+AttributeError: type object 'BusinessDetails' has no attribute 'objects'
+"GET /api/onboard/get-business-details/ HTTP/1.1" 500 88804
+Internal Server Error: /api/onboard/get-business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 47, in retrieve
+    saveBusinessDetails = BusinessDetails.objects.all()
+AttributeError: type object 'BusinessDetails' has no attribute 'objects'
+"GET /api/onboard/get-business-details/ HTTP/1.1" 500 88804
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2889
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2889
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2
+"OPTIONS /api/onboard/add-business-details/ HTTP/1.1" 200 0
+Not Found: /api/onboard/add-business-details/
+"POST /api/onboard/add-business-details/ HTTP/1.1" 404 4020
+Not Found: /api/onboard/add-business-details/
+"POST /api/onboard/add-business-details/ HTTP/1.1" 404 4020
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/business-details/ HTTP/1.1" 200 0
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 478
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 357
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 357
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 800
+"OPTIONS /api/onboard/authorize-business/ HTTP/1.1" 200 0
+Bad Request: /api/onboard/authorize-business/
+"POST /api/onboard/authorize-business/ HTTP/1.1" 400 365
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/onboard/authorize-business/
+"POST /api/onboard/authorize-business/ HTTP/1.1" 400 365
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/onboard/authorize-business/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1774, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'Users'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 75, in create
+    user.save()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 906, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'user_id' expected a number but got <Users: Users object (4)>.
+"POST /api/onboard/authorize-business/ HTTP/1.1" 500 168031
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/onboard/authorize-business/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'dob' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 75, in create
+    user.save()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'dob' cannot be null")
+"POST /api/onboard/authorize-business/ HTTP/1.1" 500 239650
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/onboard/authorize-business/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'dob' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 71, in create
+    user.save()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'dob' cannot be null")
+"POST /api/onboard/authorize-business/ HTTP/1.1" 500 239593
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to send response
+"POST /api/onboard/authorize-business/ HTTP/1.1" 200 851
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 799
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 799
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 799
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 799
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 799
+"OPTIONS /api/onboard/business-details/ HTTP/1.1" 200 0
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 922
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1599
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1599
+Internal Server Error: /api/onboard/authorize-business/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 76, in create
+    business.save(update_fields=['active'])
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1488, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 818, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 967, in get_prep_value
+    return self.to_python(value)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 957, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“6” value must be either True or False.']
+"POST /api/onboard/authorize-business/ HTTP/1.1" 500 147540
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+About to send response
+"POST /api/onboard/authorize-business/ HTTP/1.1" 200 853
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 1598
+"OPTIONS /api/onboard/business-details/ HTTP/1.1" 200 0
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 911
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2387
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2387
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2387
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2387
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2387
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 2387
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 914
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3175
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3175
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3157
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3157
+"OPTIONS /api/onboard/authorize-business/ HTTP/1.1" 200 0
+About to send response
+"POST /api/onboard/authorize-business/ HTTP/1.1" 200 832
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3157
+About to send response
+"POST /api/onboard/authorize-business/ HTTP/1.1" 200 839
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3157
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 924
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3959
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3959
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3959
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3959
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3959
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 3959
