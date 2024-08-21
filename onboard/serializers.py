@@ -22,6 +22,7 @@ class BusinessDetailsCustomSerializer(serializers.Serializer):
     streetAddress=serializers.CharField(max_length=255)
     postalAddress=serializers.CharField(max_length=255)
     alternatePhoneNumber=serializers.CharField(max_length=255)
+    numberOfDirectors=serializers.CharField(max_length=255)
 
 class BusinessDetailsAuthorizeSerializer(serializers.Serializer):
     businessId = serializers.CharField(max_length=255)

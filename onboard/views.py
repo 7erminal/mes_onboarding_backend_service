@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status, viewsets
 
 from onboard.serializers import BusinessDetailsSerializer, BusinessDetailsCustomSerializer, BusinessDetailsAuthorizeSerializer, BusinessDetailsResponseSerializer
-from onboard.models import BusinessDetails
+from onboard.models import BusinessDetails, DirectorIds
 from onboard.models_existing import Users
 
 import logging
@@ -21,6 +21,12 @@ class BusinessDetailsView(viewsets.ViewSet):
     def create(self, request):
         serializer = BusinessDetailsCustomSerializer(data=request.data)
 
+        logger.info(serializer)
+        directorIDs = request.FILES.getlist('directorIDs')
+        certCompanyProfile = request.FILES['certCompanyProfile'] if 'certCompanyProfile' in request.FILES else False
+        certOfCorporation = request.FILES['certOfCorporation']
+        certCommenceBusiness = request.FILES['certCommenceBusiness']
+
         if serializer.is_valid(raise_exception=True):
             user = Users.objects.get(user_id=serializer.data['userid'])
             saveBusinessDetails = BusinessDetails(
@@ -30,7 +36,11 @@ class BusinessDetailsView(viewsets.ViewSet):
                 streetAddress = serializer.data['streetAddress'],
                 postalAddress = serializer.data['postalAddress'],
                 alternatePhoneNumber = serializer.data['alternatePhoneNumber'],
-                created_by=user
+                created_by=user,
+                numberOfDirectors = serializer.data['numberOfDirectors'],
+                companyProfileCert = certCompanyProfile,
+                certOfCorporation = certOfCorporation,
+                commenceBusinessCert = certCommenceBusiness
             )
 
             user.phone_number = serializer.data['phoneNumber']
@@ -38,6 +48,16 @@ class BusinessDetailsView(viewsets.ViewSet):
             user.save(update_fields=['phone_number'])
 
             saveBusinessDetails.save()
+
+            for directorId in directorIDs:
+                logger.info("Each file ...")
+                logger.info(directorId)
+
+                images_ = DirectorIds(
+                        businessDetailId=saveBusinessDetails,
+                        directorIds=directorId
+                    )
+                DirectorIds.save()
 
             message = "Details added successfully. You will be notified once your request is approved."
             status_ = 200

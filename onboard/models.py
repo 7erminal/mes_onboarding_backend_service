@@ -16,4 +16,12 @@ class BusinessDetails(models.Model):
 	updated_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='auth_user', null=True)
 	created_at = models.DateTimeField(auto_now_add=True, blank=True)
 	updated_at = models.DateTimeField(auto_now=True, blank=True)
-	
+	numberOfDirectors = models.IntegerField(default=0)
+	companyProfileCert = models.FileField(upload_to='static/company-profile-certs/', null=True, blank=True)
+	certOfCorporation = models.FileField(upload_to='static/cert-of-corporation/', null=True, blank=True)
+	commenceBusinessCert = models.FileField(upload_to='static/commence-business-certs/', null=True, blank=True)
+
+class DirectorIds(models.Model):
+	directorIdsId = models.AutoField(primary_key=True)
+	businessDetailId = models.ForeignKey(BusinessDetails, on_delete=models.CASCADE, related_name='director_id_business')
+	directorIds = models.FileField(upload_to='static/directors-certs/', null=True, blank=True)

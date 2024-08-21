@@ -856,3 +856,726 @@ Sending response
 About to fetch business details
 Sending response
 "GET /api/onboard/get-business-details/ HTTP/1.1" 200 3959
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/business-details/ HTTP/1.1" 200 0
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 353
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 353
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data={'userid': 5, 'companyName': 'Qtee', 'businessRegistrationNumber': 'ZM 2020333 RZ', 'natureOfBusiness': 'Flamboyant', 'phoneNumber': '0557881327', 'streetAddress': 'Settings 223', 'postalAddress': 'P O Box 12', 'alternatePhoneNumber': '0269009334', 'numberOfDirectors': '1', 'directorIDs': {'0': {}}}):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'directorIDs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 25, in create
+    directorIDs = request.FILES['directorIDs']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'directorIDs'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 98552
+BusinessDetailsCustomSerializer(data={'userid': 5, 'companyName': 'Gundess Yard', 'businessRegistrationNumber': 'G2293009', 'natureOfBusiness': 'Gundess yard', 'phoneNumber': '0557881327', 'streetAddress': 'box 229', 'postalAddress': 'Box 223', 'alternatePhoneNumber': '0269009822', 'numberOfDirectors': '1', 'directorIDs': {'0': {}}}):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'directorIDs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 25, in create
+    directorIDs = request.FILES['directorIDs']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'directorIDs'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 98549
+BusinessDetailsCustomSerializer(data={'userid': 5, 'companyName': 'Gundess Yard', 'businessRegistrationNumber': 'G2293009', 'natureOfBusiness': 'Gundess yard', 'phoneNumber': '0557881327', 'streetAddress': 'box 229', 'postalAddress': 'Box 223', 'alternatePhoneNumber': '0269009822', 'numberOfDirectors': '1', 'directorIDs': {'0': {}}}):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'directorIDs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 25, in create
+    directorIDs = request.FILES['directorIDs']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'directorIDs'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 98549
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data={'userid': 5, 'companyName': 'Gundess Yard', 'businessRegistrationNumber': 'G2293009', 'natureOfBusiness': 'Gundess yard', 'phoneNumber': '0557881327', 'streetAddress': 'box 229', 'postalAddress': 'Box 223', 'alternatePhoneNumber': '0269009822', 'numberOfDirectors': '1', 'directorIDs': {'0': {}}}):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 26, in create
+    certCompanyProfile = request.FILES['certCompanyProfile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 98852
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Gundess Yard'], 'businessRegistrationNumber': ['G2293009'], 'natureOfBusiness': ['Gundess yard'], 'phoneNumber': ['0557881327'], 'streetAddress': ['box 229'], 'postalAddress': ['Box 223'], 'alternatePhoneNumber': ['0269009822'], 'numberOfDirectors': ['1'], 'directorIDs[]': [<InMemoryUploadedFile: cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8xOV9waG90b19vZl9zaW1wbGVfY3VybHlfYWZyaWNhbl9hbWVyaWNhbl9zbWlsaV85ODZiYzU2OC1iOWY1LTRlNDAtYWJlZC1iZmYxMmFlMDQwMWEucG5n.webp (image/webp)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 26, in create
+    certCompanyProfile = request.FILES['certCompanyProfile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 101659
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Gundess Yard'], 'businessRegistrationNumber': ['G2293009'], 'natureOfBusiness': ['Gundess yard'], 'phoneNumber': ['0557881327'], 'streetAddress': ['box 229'], 'postalAddress': ['Box 223'], 'alternatePhoneNumber': ['0269009822'], 'numberOfDirectors': ['1'], 'directorIDs[]': [<InMemoryUploadedFile: cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8xOV9waG90b19vZl9zaW1wbGVfY3VybHlfYWZyaWNhbl9hbWVyaWNhbl9zbWlsaV85ODZiYzU2OC1iOWY1LTRlNDAtYWJlZC1iZmYxMmFlMDQwMWEucG5n.webp (image/webp)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 26, in create
+    certCompanyProfile = request.FILES['certCompanyProfile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 101659
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Gundess Yard'], 'businessRegistrationNumber': ['G2293009'], 'natureOfBusiness': ['Gundess yard'], 'phoneNumber': ['0557881327'], 'streetAddress': ['box 229'], 'postalAddress': ['Box 223'], 'alternatePhoneNumber': ['0269009822'], 'numberOfDirectors': ['1'], 'directorIDs[]': [<InMemoryUploadedFile: cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8xOV9waG90b19vZl9zaW1wbGVfY3VybHlfYWZyaWNhbl9hbWVyaWNhbl9zbWlsaV85ODZiYzU2OC1iOWY1LTRlNDAtYWJlZC1iZmYxMmFlMDQwMWEucG5n.webp (image/webp)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 26, in create
+    certCompanyProfile = request.FILES['certCompanyProfile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 101659
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Blazing beast'], 'businessRegistrationNumber': ['G220001'], 'natureOfBusiness': ['Blazing beasts'], 'phoneNumber': ['0557881321'], 'streetAddress': ['ST 22033 R'], 'postalAddress': ['Box 22989'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['2'], 'directorIDs[]': [<TemporaryUploadedFile: manonphone.png (image/png)>, <TemporaryUploadedFile: manonphones.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 26, in create
+    certCompanyProfile = request.FILES['certCompanyProfile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 101038
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Blazing beast'], 'businessRegistrationNumber': ['G220001'], 'natureOfBusiness': ['Blazing beasts'], 'phoneNumber': ['0557881321'], 'streetAddress': ['ST 22033 R'], 'postalAddress': ['Box 22989'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['2'], 'directorIDs[]': [<TemporaryUploadedFile: manonphone.png (image/png)>, <TemporaryUploadedFile: manonphones.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 26, in create
+    certCompanyProfile = request.FILES['certCompanyProfile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 101038
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Blazing beast'], 'businessRegistrationNumber': ['G220001'], 'natureOfBusiness': ['Blazing beasts'], 'phoneNumber': ['0557881321'], 'streetAddress': ['ST 22033 R'], 'postalAddress': ['Box 22989'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 32, in create
+    saveBusinessDetails = BusinessDetails(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 501, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: BusinessDetails() got an unexpected keyword argument 'directorIds'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 102274
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Blazing beast'], 'businessRegistrationNumber': ['G220001'], 'natureOfBusiness': ['Blazing beasts'], 'phoneNumber': ['0557881321'], 'streetAddress': ['ST 22033 R'], 'postalAddress': ['Box 22989'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 32, in create
+    saveBusinessDetails = BusinessDetails(
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/base.py", line 501, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: BusinessDetails() got an unexpected keyword argument 'certCommenceBusiness'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 102307
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Blazing beast'], 'businessRegistrationNumber': ['G220001'], 'natureOfBusiness': ['Blazing beasts'], 'phoneNumber': ['0557881321'], 'streetAddress': ['ST 22033 R'], 'postalAddress': ['Box 22989'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1152
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Setting stages'], 'businessRegistrationNumber': ['BR992990'], 'natureOfBusiness': ['Setting stages'], 'phoneNumber': ['0557881327'], 'streetAddress': ['ST 220'], 'postalAddress': ['Box 22'], 'alternatePhoneNumber': ['022939923'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1170
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Picking streaks'], 'businessRegistrationNumber': ['P229900'], 'natureOfBusiness': ['Settling and picking streaks'], 'phoneNumber': [''], 'streetAddress': ['ST 29290'], 'postalAddress': ['Box 90'], 'alternatePhoneNumber': ['0559923002'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 48
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Picking streaks'], 'businessRegistrationNumber': ['P229900'], 'natureOfBusiness': ['Settling and picking streaks'], 'phoneNumber': [''], 'streetAddress': ['ST 29290'], 'postalAddress': ['Box 90'], 'alternatePhoneNumber': ['0559923002'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 48
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Picking streaks'], 'businessRegistrationNumber': ['P229900'], 'natureOfBusiness': ['Settling and picking streaks'], 'phoneNumber': [''], 'streetAddress': ['ST 29290'], 'postalAddress': ['Box 90'], 'alternatePhoneNumber': ['0559923002'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 48
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Picking streaks'], 'businessRegistrationNumber': ['P229900'], 'natureOfBusiness': ['Settling and picking streaks'], 'phoneNumber': ['2003990102'], 'streetAddress': ['ST 29290'], 'postalAddress': ['Box 90'], 'alternatePhoneNumber': ['0559923002'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1187
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['GO2002'], 'natureOfBusiness': ['Selling ducks'], 'phoneNumber': ['022995001'], 'streetAddress': ['Box 22'], 'postalAddress': ['Box 22'], 'alternatePhoneNumber': ['022933949'], 'numberOfDirectors': ['1'], 'directorIDs[]': [<InMemoryUploadedFile: manonphone.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 26, in create
+    certCompanyProfile = request.FILES['certCompanyProfile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 100950
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['GO2002'], 'natureOfBusiness': ['Selling ducks'], 'phoneNumber': ['022995001'], 'streetAddress': ['Box 22'], 'postalAddress': ['Box 22'], 'alternatePhoneNumber': ['022933949'], 'numberOfDirectors': ['1'], 'directorIDs[]': [<InMemoryUploadedFile: manonphone.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certCompanyProfile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 27, in create
+    if request.FILES['certCompanyProfile'] is not None:
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certCompanyProfile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 101146
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['GO2002'], 'natureOfBusiness': ['Selling ducks'], 'phoneNumber': ['022995001'], 'streetAddress': ['Box 22'], 'postalAddress': ['Box 22'], 'alternatePhoneNumber': ['022933949'], 'numberOfDirectors': ['1'], 'directorIDs[]': [<InMemoryUploadedFile: manonphone.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'certOfCorporation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 27, in create
+    certOfCorporation = request.FILES['certOfCorporation']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'certOfCorporation'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 101217
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['GO2002'], 'natureOfBusiness': ['Selling ducks'], 'phoneNumber': [''], 'streetAddress': ['Box 22'], 'postalAddress': ['Box 22'], 'alternatePhoneNumber': ['022933949'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': ['undefined'], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 48
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['GO2002'], 'natureOfBusiness': ['Selling ducks'], 'phoneNumber': [''], 'streetAddress': ['Box 22'], 'postalAddress': ['Box 22'], 'alternatePhoneNumber': ['022933949'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': ['undefined'], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 48
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['GO2002'], 'natureOfBusiness': ['Selling ducks'], 'phoneNumber': [''], 'streetAddress': ['Box 22'], 'postalAddress': ['Box 22'], 'alternatePhoneNumber': ['022933949'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': ['undefined'], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Bad Request: /api/onboard/business-details/
+"POST /api/onboard/business-details/ HTTP/1.1" 400 48
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Quails'], 'businessRegistrationNumber': ['QSA22002'], 'natureOfBusiness': ['Wuquue'], 'phoneNumber': ['022739933'], 'streetAddress': ['box 12'], 'postalAddress': ['box 29'], 'alternatePhoneNumber': ['023994995'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': ['undefined'], 'certOfCorporation': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1101
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
