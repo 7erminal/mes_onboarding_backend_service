@@ -143,12 +143,12 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-# CORS_ALLOW_HEADERS = [
-#     'content-disposition',
-#     'content-type',
-# ]
+CORS_ALLOW_HEADERS = [
+    'content-disposition',
+    'content-type',
+]
 
-# CORS_EXPOSE_HEADERS = ['Content-Disposition']
+CORS_EXPOSE_HEADERS = ['Content-Disposition']
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
