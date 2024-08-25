@@ -18,11 +18,13 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 
-from onboard.views import BusinessDetailsView, AuthorizeBusiness
+from onboard.views import BusinessDetailsView, AuthorizeBusiness, DownloadFile, ViewDirectorImages
 
 router = routers.DefaultRouter()
 router.register(r'business-details', BusinessDetailsView, basename='business-details')
 router.register(r'authorize-business', AuthorizeBusiness, basename='authorize-business')
+router.register(r'download-file', DownloadFile, basename='download-file')
+router.register(r'view-director-images', ViewDirectorImages, basename='view-director-images')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

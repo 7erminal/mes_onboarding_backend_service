@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from onboard.models import BusinessDetails
+from onboard.models import BusinessDetails, DirectorIds
 from onboard.models_existing import Users
 
 class UsersSerializer(serializers.ModelSerializer):
@@ -32,3 +32,20 @@ class BusinessDetailsResponseSerializer(serializers.Serializer):
     StatusDesc = serializers.CharField(max_length=255)
     StatusCode = serializers.IntegerField()
     Result = BusinessDetailsSerializer()
+
+class DownloadFileSerializer(serializers.Serializer):
+    requestId = serializers.IntegerField()
+    fileType = serializers.CharField(max_length=100)
+
+class DirectorImagesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = DirectorIds
+        fields = '__all__'
+
+class DirectorImagesRequestSerializer(serializers.Serializer):
+    id = serializers.IntegerField()
+
+class DirectorImagesResponseSerializer(serializers.Serializer):
+    StatusDesc = serializers.CharField(max_length=255)
+    StatusCode = serializers.IntegerField()
+    Result = DirectorImagesSerializer(many=True)

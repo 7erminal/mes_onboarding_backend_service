@@ -1579,3 +1579,1293 @@ Sending response
 About to fetch business details
 Sending response
 "GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+"OPTIONS /api/onboard/authorize-business/ HTTP/1.1" 200 0
+Bad Request: /api/onboard/authorize-business/
+"POST /api/onboard/authorize-business/ HTTP/1.1" 400 80
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+Valid request
+Internal Server Error: /api/onboard/download-file/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 124, in create
+    filePath = os.path.join(settings.MEDIA_ROOT, file)
+AttributeError: module 'mes_onboarding.settings' has no attribute 'MEDIA_ROOT'
+"POST /api/onboard/download-file/ HTTP/1.1" 500 90298
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+Internal Server Error: /api/onboard/download-file/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 124, in create
+    filePath = os.path.join(file)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FieldFile
+"POST /api/onboard/download-file/ HTTP/1.1" 500 93895
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+Internal Server Error: /api/onboard/download-file/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 124, in create
+    filePath = os.path.join(file.path)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/files.py", line 56, in path
+    self._require_file()
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'certOfCorporation' attribute has no file associated with it.
+"POST /api/onboard/download-file/ HTTP/1.1" 500 97263
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 8586
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Guy Guy Ent'], 'businessRegistrationNumber': ['BC2200018'], 'natureOfBusiness': ['Selling car parts'], 'phoneNumber': ['0248829398'], 'streetAddress': ['Box 12'], 'postalAddress': ['Box 13200'], 'alternatePhoneNumber': ['0228489585'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1251
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+Internal Server Error: /api/onboard/download-file/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 128, in create
+    response['Content-Disposition'] = f'attachment; filename="{os.path.basename(file)}"'
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py", line 142, in basename
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not FieldFile
+"POST /api/onboard/download-file/ HTTP/1.1" 500 94323
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+MESTECH_KYC_5XIirkx.docx
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+Valid request
+File name retrieved is 
+MESTECH_KYC_5XIirkx.docx
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 9720
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Kelly Kelly'], 'businessRegistrationNumber': ['CR200039'], 'natureOfBusiness': ['Car wash'], 'phoneNumber': ['0259939293'], 'streetAddress': ['ST 24 Avenue'], 'postalAddress': ['Box 2233'], 'alternatePhoneNumber': ['0529939693'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: ilovepdf_merged.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1233
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+Valid request
+File name retrieved is 
+ilovepdf_merged.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 745231
+Valid request
+File name retrieved is 
+ilovepdf_merged.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 745231
+Valid request
+File name retrieved is 
+Bede_Abbe_Adawe_HI00261036_-_Savings_Booster_GZS10YQ.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 95079
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx_EZcqnS8.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+"OPTIONS /api/onboard/authorize-business/ HTTP/1.1" 200 0
+About to send response
+"POST /api/onboard/authorize-business/ HTTP/1.1" 200 1164
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+Valid request
+File name retrieved is 
+MESTECH_KYC.docx
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 10831
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Gooner station'], 'businessRegistrationNumber': ['T200012'], 'natureOfBusiness': ['Delivery business'], 'phoneNumber': ['0557881327'], 'streetAddress': ['ST 200 Ajetey road'], 'postalAddress': ['Box 54'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: FATMOH GHANA LIMITED PROFILE.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1261
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 11970
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 11970
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Casier folds'], 'businessRegistrationNumber': ['2003902'], 'natureOfBusiness': ['Foldings'], 'phoneNumber': ['02559930023'], 'streetAddress': ['ST-2-0300'], 'postalAddress': ['Box 2203'], 'alternatePhoneNumber': ['0259930963'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1236
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Casier folds'], 'businessRegistrationNumber': ['2003902'], 'natureOfBusiness': ['Foldings'], 'phoneNumber': ['02559930023'], 'streetAddress': ['ST-2-0300'], 'postalAddress': ['Box 2203'], 'alternatePhoneNumber': ['0259930963'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1236
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Casier folds'], 'businessRegistrationNumber': ['2003902'], 'natureOfBusiness': ['Foldings'], 'phoneNumber': ['02559930023'], 'streetAddress': ['ST-2-0300'], 'postalAddress': ['Box 2203'], 'alternatePhoneNumber': ['0259930963'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1236
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 15320
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 15320
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 15320
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 15320
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 15320
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 15320
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['02093902'], 'natureOfBusiness': ['Business'], 'phoneNumber': ['02259903293'], 'streetAddress': ['ST 203'], 'postalAddress': ['Box 2003'], 'alternatePhoneNumber': ['0239949555'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    directorIDs = request.FILES('directorIDs[]')
+TypeError: 'MultiValueDict' object is not callable
+"POST /api/onboard/business-details/ HTTP/1.1" 500 94085
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['02093902'], 'natureOfBusiness': ['Business'], 'phoneNumber': ['02259903293'], 'streetAddress': ['ST 203'], 'postalAddress': ['Box 2003'], 'alternatePhoneNumber': ['0239949555'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'directorIDs[]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    directorIDs = request.FILES['directorIDs[]']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'directorIDs[]'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 102904
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['02093902'], 'natureOfBusiness': ['Business'], 'phoneNumber': ['02259903293'], 'streetAddress': ['ST 203'], 'postalAddress': ['Box 2003'], 'alternatePhoneNumber': ['0239949555'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'directorIDss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    directorIDs = request.FILES['directorIDss']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'directorIDss'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 102892
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['02093902'], 'natureOfBusiness': ['Business'], 'phoneNumber': ['02259903293'], 'streetAddress': ['ST 203'], 'postalAddress': ['Box 2003'], 'alternatePhoneNumber': ['0239949555'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'directorIDs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    directorIDs = request.FILES['directorIDs']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'directorIDs'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 102880
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['02093902'], 'natureOfBusiness': ['Business'], 'phoneNumber': ['02259903293'], 'streetAddress': ['ST 203'], 'postalAddress': ['Box 2003'], 'alternatePhoneNumber': ['0239949555'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+['[object FileList]']
+Each file ...
+[object FileList]
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1236
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Goodling ducks'], 'businessRegistrationNumber': ['02093902'], 'natureOfBusiness': ['Business'], 'phoneNumber': ['02259903293'], 'streetAddress': ['ST 203'], 'postalAddress': ['Box 2003'], 'alternatePhoneNumber': ['0239949555'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+['[object FileList]']
+Each file ...
+certCompanyProfile
+Each file ...
+certOfCorporation
+Each file ...
+certCommenceBusiness
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1244
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 17556
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 17556
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 17556
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 17556
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Runway Siders'], 'businessRegistrationNumber': ['S001229'], 'natureOfBusiness': ['Bikers'], 'phoneNumber': ['0257749930'], 'streetAddress': ['Akwetey street'], 'postalAddress': ['E72-901992'], 'alternatePhoneNumber': ['02399299304'], 'numberOfDirectors': ['1'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+['[object FileList]']
+Each file ...
+certCompanyProfile
+Each file ...
+certOfCorporation
+Each file ...
+certCommenceBusiness
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1242
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 18663
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 18663
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 18663
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 18663
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Teron waves'], 'businessRegistrationNumber': ['22003032'], 'natureOfBusiness': ['Metal works and welding'], 'phoneNumber': ['0225883993'], 'streetAddress': ['S002290'], 'postalAddress': ['Box 122'], 'alternatePhoneNumber': ['0228388554'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+['[object FileList]']
+Each file ...
+certCompanyProfile
+Each file ...
+certOfCorporation
+Each file ...
+certCommenceBusiness
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1215
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Teron waves'], 'businessRegistrationNumber': ['22003032'], 'natureOfBusiness': ['Metal works and welding'], 'phoneNumber': ['0225883993'], 'streetAddress': ['S002290'], 'postalAddress': ['Box 122'], 'alternatePhoneNumber': ['0228388554'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+['[object FileList]']
+Each file ...
+[object FileList]
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1223
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Teron waves'], 'businessRegistrationNumber': ['22003032'], 'natureOfBusiness': ['Metal works and welding'], 'phoneNumber': ['0225883993'], 'streetAddress': ['S002290'], 'postalAddress': ['Box 122'], 'alternatePhoneNumber': ['0228388554'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1223
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Teron waves'], 'businessRegistrationNumber': ['22003032'], 'natureOfBusiness': ['Metal works and welding'], 'phoneNumber': ['0225883993'], 'streetAddress': ['S002290'], 'postalAddress': ['Box 122'], 'alternatePhoneNumber': ['0228388554'], 'numberOfDirectors': ['2'], 'directorIDs': ['[object FileList]'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1223
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Teron waves'], 'businessRegistrationNumber': ['22003032'], 'natureOfBusiness': ['Metal works and welding'], 'phoneNumber': ['0225883993'], 'streetAddress': ['S002290'], 'postalAddress': ['Box 122'], 'alternatePhoneNumber': ['0228388554'], 'numberOfDirectors': ['2'], 'certCompanyProfile': [<TemporaryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<TemporaryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'directorIDs': [<TemporaryUploadedFile: manonphones.png (image/png)>, <TemporaryUploadedFile: manphon.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+manonphones.png
+Each file ...
+manphon.png
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1223
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Teron waves'], 'businessRegistrationNumber': ['22003032'], 'natureOfBusiness': ['Metal works and welding'], 'phoneNumber': ['0225883993'], 'streetAddress': ['S002290'], 'postalAddress': ['Box 122'], 'alternatePhoneNumber': ['0228388554'], 'numberOfDirectors': ['2'], 'certCompanyProfile': [<TemporaryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<TemporaryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'directorIDs': [<TemporaryUploadedFile: manonphones.png (image/png)>, <TemporaryUploadedFile: manphon.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+manonphones.png
+Each file ...
+manphon.png
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1223
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Teron waves'], 'businessRegistrationNumber': ['22003032'], 'natureOfBusiness': ['Metal works and welding'], 'phoneNumber': ['0225883993'], 'streetAddress': ['S002290'], 'postalAddress': ['Box 122'], 'alternatePhoneNumber': ['0228388554'], 'numberOfDirectors': ['2'], 'certCompanyProfile': [<TemporaryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<TemporaryUploadedFile: MESTECH_KYC_5XIirkx.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'directorIDs': [<TemporaryUploadedFile: manonphones.png (image/png)>, <TemporaryUploadedFile: manphon.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+manonphones.png
+Each file ...
+manphon.png
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1223
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26362
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26362
+"OPTIONS /api/onboard/view-director-ids/ HTTP/1.1" 200 0
+Not Found: /api/onboard/view-director-ids/
+"POST /api/onboard/view-director-ids/ HTTP/1.1" 404 5643
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/view-director-images/ HTTP/1.1" 200 0
+Bad Request: /api/onboard/view-director-images/
+"POST /api/onboard/view-director-images/ HTTP/1.1" 400 34
+Valid request
+Internal Server Error: /api/onboard/view-director-images/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 122, in create
+    directorIds = DirectorIds.objects.get(businessDetailId=serializer.data["id"])
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 433, in get
+    raise self.model.MultipleObjectsReturned(
+onboard.models.DirectorIds.MultipleObjectsReturned: get() returned more than one DirectorIds -- it returned 2!
+"POST /api/onboard/view-director-images/ HTTP/1.1" 500 99033
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+Internal Server Error: /api/onboard/view-director-images/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 122, in create
+    directorIds = DirectorIds.objects.get(businessDetailId=serializer.data["id"])
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/db/models/query.py", line 433, in get
+    raise self.model.MultipleObjectsReturned(
+onboard.models.DirectorIds.MultipleObjectsReturned: get() returned more than one DirectorIds -- it returned 2!
+"POST /api/onboard/view-director-images/ HTTP/1.1" 500 99033
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones_5BC9ZEA.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon_H1BPh8P.png
+Internal Server Error: /api/onboard/view-director-images/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 137, in create
+    return Response(DirectorImagesResponseSerializer(resp, many=True).data,status.HTTP_200_OK)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+TypeError: 'Resp' object is not iterable
+"POST /api/onboard/view-director-images/ HTTP/1.1" 500 103468
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones_5BC9ZEA.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon_H1BPh8P.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 273
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26362
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26362
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+Valid request
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manonphones.png
+directorId is 
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/static/directors-certs/manphon.png
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 257
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/onboard/view-director-images/ HTTP/1.1" 200 0
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 273
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 273
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 273
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 273
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26722
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26722
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 289
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/urls.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26722
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 26722
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 273
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/models.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['5'], 'companyName': ['Guns Blake Heroes'], 'businessRegistrationNumber': ['B0200001'], 'natureOfBusiness': ['Selling and buying guns'], 'phoneNumber': ['0557881929'], 'streetAddress': ['ST 002'], 'postalAddress': ['P. O. Box 220'], 'alternatePhoneNumber': ['0269939020'], 'numberOfDirectors': ['2'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Abbe Adawe (HI00261036) - Savings Booster.pdf (application/pdf)>], 'directorIDs': [<InMemoryUploadedFile: PHOTO-2024-07-22-13-36-20.jpg (image/jpeg)>, <InMemoryUploadedFile: PHOTO-2024-07-22-13-36-23 2.jpg (image/jpeg)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+PHOTO-2024-07-22-13-36-20.jpg
+Each file ...
+PHOTO-2024-07-22-13-36-23 2.jpg
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1231
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET //media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET //media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET //media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg HTTP/1.1" 404 2210
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg HTTP/1.1" 404 2210
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg HTTP/1.1" 404 2210
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+"OPTIONS /api/onboard/view-director-images/ HTTP/1.1" 200 0
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+Not Found: /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 404 2204
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 200 40704
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg HTTP/1.1" 200 45709
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+"OPTIONS /api/onboard/view-director-images/ HTTP/1.1" 200 0
+Valid request
+"POST /api/onboard/view-director-images/ HTTP/1.1" 200 293
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-20.jpg HTTP/1.1" 304 0
+"GET /media/directors-certs/PHOTO-2024-07-22-13-36-23_2.jpg HTTP/1.1" 304 0
+"OPTIONS /api/onboard/authorize-business/ HTTP/1.1" 200 0
+About to send response
+"POST /api/onboard/authorize-business/ HTTP/1.1" 200 1162
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831

@@ -1,8 +1,11 @@
+import os
 from django.shortcuts import render
+from mes_onboarding import settings
 from rest_framework.response import Response
 from rest_framework import status, viewsets
+from django.http import FileResponse, Http404
 
-from onboard.serializers import BusinessDetailsSerializer, BusinessDetailsCustomSerializer, BusinessDetailsAuthorizeSerializer, BusinessDetailsResponseSerializer
+from onboard.serializers import BusinessDetailsSerializer, BusinessDetailsCustomSerializer, BusinessDetailsAuthorizeSerializer, BusinessDetailsResponseSerializer, DownloadFileSerializer, DirectorImagesRequestSerializer, DirectorImagesResponseSerializer
 from onboard.models import BusinessDetails, DirectorIds
 from onboard.models_existing import Users
 
@@ -22,7 +25,7 @@ class BusinessDetailsView(viewsets.ViewSet):
         serializer = BusinessDetailsCustomSerializer(data=request.data)
 
         logger.info(serializer)
-        directorIDs = request.FILES.getlist('directorIDs')
+        directorIDs = request.FILES.getlist('directorIDs[]')
         certCompanyProfile = request.FILES['certCompanyProfile'] if 'certCompanyProfile' in request.FILES else False
         certOfCorporation = request.FILES['certOfCorporation']
         certCommenceBusiness = request.FILES['certCommenceBusiness']
@@ -49,7 +52,10 @@ class BusinessDetailsView(viewsets.ViewSet):
 
             saveBusinessDetails.save()
 
-            for directorId in directorIDs:
+            logger.info("Director IDs are ")
+            logger.info(directorIDs)
+
+            for directorId in request.FILES.getlist('directorIDs'):
                 logger.info("Each file ...")
                 logger.info(directorId)
 
@@ -57,7 +63,7 @@ class BusinessDetailsView(viewsets.ViewSet):
                         businessDetailId=saveBusinessDetails,
                         directorIds=directorId
                     )
-                DirectorIds.save()
+                images_.save()
 
             message = "Details added successfully. You will be notified once your request is approved."
             status_ = 200
@@ -74,9 +80,10 @@ class BusinessDetailsView(viewsets.ViewSet):
          saveBusinessDetails = BusinessDetails.objects.all()
          logger.info("Sending response")
          return Response(BusinessDetailsSerializer(saveBusinessDetails, many=True).data,status.HTTP_200_OK)
+         
     
 class AuthorizeBusiness(viewsets.ViewSet):
-     def create(self, request):
+    def create(self, request):
         serializer = BusinessDetailsAuthorizeSerializer(data=request.data)
 
         if serializer.is_valid(raise_exception=True):
@@ -105,3 +112,50 @@ class AuthorizeBusiness(viewsets.ViewSet):
             return Response(BusinessDetailsResponseSerializer(resp).data,status.HTTP_200_OK)
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST)
+        
+class ViewDirectorImages(viewsets.ViewSet):
+    def create(self, request):
+        serializer = DirectorImagesRequestSerializer(data=request.data)
+
+        if serializer.is_valid(raise_exception=True):
+            logger.info("Valid request")
+            directorIds = DirectorIds.objects.filter(businessDetailId=serializer.data["id"])
+
+            status_ = 200
+            message = "Director ID images found"
+
+            resp = Resp(StatusDesc=message, StatusCode=status_, Result=directorIds)
+
+            return Response(DirectorImagesResponseSerializer(resp).data,status.HTTP_200_OK)
+        else:
+            return Response(status=status.HTTP_400_BAD_REQUEST)
+         
+class DownloadFile(viewsets.ViewSet):
+    def create(self, request):
+        serializer = DownloadFileSerializer(data=request.data)
+
+        if serializer.is_valid(raise_exception=True):
+            logger.info("Valid request")
+            business = BusinessDetails.objects.get(businessDetailId=serializer.data["requestId"])
+
+            file = ""
+            if serializer.data["fileType"]=="CERT_OF_INCORPORATION":
+                 file = business.certOfCorporation
+            if serializer.data["fileType"]=="CERT_TO_COMMENCE":
+                 file = business.commenceBusinessCert
+            if serializer.data["fileType"]=="CERT_COMPANY_PROFILE":
+                 file = business.companyProfileCert
+            filePath = os.path.join(file.path)
+
+            if os.path.exists(filePath):
+                response = FileResponse(open(filePath, 'rb'), as_attachment=True)
+                logger.info("File name retrieved is ")
+                logger.info(os.path.basename(file.path))
+                response['Content-Disposition'] = f'attachment; filename="{os.path.basename(file.path)}"'
+                response['Access-Control-Expose-Headers'] = 'Content-Disposition'
+                return response
+            else:
+                raise Http404("File does not exist")
+        else:
+             logger.info("Bad request")
+             return Response(status=status.HTTP_400_BAD_REQUEST)
