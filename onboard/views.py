@@ -25,6 +25,7 @@ class BusinessDetailsView(viewsets.ViewSet):
         serializer = BusinessDetailsCustomSerializer(data=request.data)
 
         logger.info(serializer)
+        userIdFile_ = request.FILES['userIdFile']
         directorIDs = request.FILES.getlist('directorIDs[]')
         certCompanyProfile = request.FILES['certCompanyProfile'] if 'certCompanyProfile' in request.FILES else False
         certOfCorporation = request.FILES['certOfCorporation']
@@ -38,17 +39,19 @@ class BusinessDetailsView(viewsets.ViewSet):
                 natureOfBusiness = serializer.data['natureOfBusiness'],
                 streetAddress = serializer.data['streetAddress'],
                 postalAddress = serializer.data['postalAddress'],
+                officialPhoneNumber = serializer.data['phoneNumber'],
                 alternatePhoneNumber = serializer.data['alternatePhoneNumber'],
                 created_by=user,
                 numberOfDirectors = serializer.data['numberOfDirectors'],
                 companyProfileCert = certCompanyProfile,
                 certOfCorporation = certOfCorporation,
-                commenceBusinessCert = certCommenceBusiness
+                commenceBusinessCert = certCommenceBusiness,
+                userIdFile = userIdFile_
             )
 
-            user.phone_number = serializer.data['phoneNumber']
+            # user.phone_number = serializer.data['phoneNumber']
 
-            user.save(update_fields=['phone_number'])
+            # user.save(update_fields=['phone_number'])
 
             saveBusinessDetails.save()
 

@@ -2869,3 +2869,277 @@ About to send response
 About to fetch business details
 Sending response
 "GET /api/onboard/get-business-details/ HTTP/1.1" 200 27831
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Judicial Service Union'], 'businessRegistrationNumber': ['RT1000122'], 'natureOfBusiness': ['Union of Judicial members'], 'phoneNumber': ['0557881327'], 'streetAddress': ['Ministries road 22'], 'postalAddress': ['Box 802'], 'alternatePhoneNumber': ['0268003912'], 'numberOfDirectors': ['2'], 'userIdFile': ['function () { [native code] }'], 'certCompanyProfile': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>], 'certOfCorporation': [<TemporaryUploadedFile: Degree Cert.jpg (image/jpeg)>], 'certCommenceBusiness': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'directorIDs': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>, <TemporaryUploadedFile: IMG_0987.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userIdFile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    userIdFile_ = request.FILES['userIdFile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userIdFile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 103173
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Judicial Service Union'], 'businessRegistrationNumber': ['RT1000122'], 'natureOfBusiness': ['Union of Judicial members'], 'phoneNumber': ['0557881327'], 'streetAddress': ['Ministries road 22'], 'postalAddress': ['Box 802'], 'alternatePhoneNumber': ['0268003912'], 'numberOfDirectors': ['2'], 'userIdFile': ['function () { [native code] }'], 'certCompanyProfile': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>], 'certOfCorporation': [<TemporaryUploadedFile: Degree Cert.jpg (image/jpeg)>], 'certCommenceBusiness': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'directorIDs': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>, <TemporaryUploadedFile: IMG_0987.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userIdFile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    userIdFile_ = request.FILES['userIdFile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userIdFile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 103173
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Judicial Service Union'], 'businessRegistrationNumber': ['RT1000122'], 'natureOfBusiness': ['Union of Judicial members'], 'phoneNumber': ['0557881327'], 'streetAddress': ['Ministries road 22'], 'postalAddress': ['Box 802'], 'alternatePhoneNumber': ['0268003912'], 'numberOfDirectors': ['2'], 'userIdFile': ['function () { [native code] }'], 'certCompanyProfile': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>], 'certOfCorporation': [<TemporaryUploadedFile: Degree Cert.jpg (image/jpeg)>], 'certCommenceBusiness': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'directorIDs': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>, <TemporaryUploadedFile: IMG_0987.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userIdFile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    userIdFile_ = request.FILES['userIdFile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userIdFile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 103173
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Judicial Service Union'], 'businessRegistrationNumber': ['RT1000122'], 'natureOfBusiness': ['Union of Judicial members'], 'phoneNumber': ['0557881327'], 'streetAddress': ['Ministries road 22'], 'postalAddress': ['Box 802'], 'alternatePhoneNumber': ['0268003912'], 'numberOfDirectors': ['2'], 'userIdFile': ['function () { [native code] }'], 'certCompanyProfile': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>], 'certOfCorporation': [<TemporaryUploadedFile: Degree Cert.jpg (image/jpeg)>], 'certCommenceBusiness': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'directorIDs': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>, <TemporaryUploadedFile: IMG_0987.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Internal Server Error: /api/onboard/business-details/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'userIdFile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py", line 28, in create
+    userIdFile_ = request.FILES['userIdFile']
+  File "/Users/bedeabbe/Desktop/projects/python/venv/lib/python3.9/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'userIdFile'
+"POST /api/onboard/business-details/ HTTP/1.1" 500 103173
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Judicial Service Union'], 'businessRegistrationNumber': ['RT1000122'], 'natureOfBusiness': ['Union of Judicial members'], 'phoneNumber': ['0557881327'], 'streetAddress': ['Ministries road 22'], 'postalAddress': ['Box 802'], 'alternatePhoneNumber': ['0268003912'], 'numberOfDirectors': ['2'], 'certCompanyProfile': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>], 'certOfCorporation': [<TemporaryUploadedFile: Degree Cert.jpg (image/jpeg)>], 'certCommenceBusiness': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'userIdFile': [<TemporaryUploadedFile: IMG_0987.png (image/png)>], 'directorIDs': [<TemporaryUploadedFile: Fibre Optics Certificate.jpg (image/jpeg)>, <TemporaryUploadedFile: IMG_0987.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+Fibre Optics Certificate.jpg
+Each file ...
+IMG_0987.png
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1302
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Animo'], 'businessRegistrationNumber': ['TG001102'], 'natureOfBusiness': ['Software development'], 'phoneNumber': ['0557881327'], 'streetAddress': ['K-2203-22'], 'postalAddress': ['Box 22983'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['3'], 'certCompanyProfile': [<TemporaryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<TemporaryUploadedFile: MES Tech Company Ltd Invoice - Animo.pdf (application/pdf)>], 'userIdFile': [<TemporaryUploadedFile: manonphones.png (image/png)>], 'directorIDs': [<TemporaryUploadedFile: manonphone.png (image/png)>, <TemporaryUploadedFile: manonphones.png (image/png)>, <TemporaryUploadedFile: manphon.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+manonphone.png
+Each file ...
+manonphones.png
+Each file ...
+manphon.png
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1304
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Animo'], 'businessRegistrationNumber': ['B500010'], 'natureOfBusiness': ['Software development'], 'phoneNumber': ['0557881327'], 'streetAddress': ['ST2201'], 'postalAddress': ['Box 220'], 'alternatePhoneNumber': ['0557881322'], 'numberOfDirectors': ['3'], 'certCompanyProfile': [<TemporaryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<TemporaryUploadedFile: MES Tech Company Ltd Invoice - Animo.pdf (application/pdf)>], 'userIdFile': [<TemporaryUploadedFile: manphon.png (image/png)>], 'directorIDs': [<TemporaryUploadedFile: manonphone.png (image/png)>, <TemporaryUploadedFile: manonphones.png (image/png)>, <TemporaryUploadedFile: manphon.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+manonphone.png
+Each file ...
+manonphones.png
+Each file ...
+manphon.png
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1302
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Animo'], 'businessRegistrationNumber': ['B500010'], 'natureOfBusiness': ['Software development'], 'phoneNumber': ['0557881327'], 'streetAddress': ['ST2201'], 'postalAddress': ['Box 220'], 'alternatePhoneNumber': ['0557881322'], 'numberOfDirectors': ['3'], 'certCompanyProfile': [<TemporaryUploadedFile: MESTECH_KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<TemporaryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'certCommenceBusiness': [<TemporaryUploadedFile: MES Tech Company Ltd Invoice - Animo.pdf (application/pdf)>], 'userIdFile': [<TemporaryUploadedFile: manphon.png (image/png)>], 'directorIDs': [<TemporaryUploadedFile: manonphone.png (image/png)>, <TemporaryUploadedFile: manonphones.png (image/png)>, <TemporaryUploadedFile: manphon.png (image/png)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+manonphone.png
+Each file ...
+manonphones.png
+Each file ...
+manphon.png
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1310
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+"GET /media/user-id-file/manphon_BHg5VXf.png HTTP/1.1" 200 674991
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+"GET /media/user-id-file/manphon_BHg5VXf.png HTTP/1.1" 304 0
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
+Watching for file changes with StatReloader
