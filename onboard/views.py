@@ -1,6 +1,5 @@
 import os
 from django.shortcuts import render
-from mes_onboarding import settings
 from rest_framework.response import Response
 from rest_framework import status, viewsets
 from django.http import FileResponse, Http404

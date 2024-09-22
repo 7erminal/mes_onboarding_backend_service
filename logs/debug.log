@@ -3143,3 +3143,90 @@ Sending response
 "GET /media/user-id-file/manphon_BHg5VXf.png HTTP/1.1" 304 0
 /Users/bedeabbe/Desktop/projects/python/mes_onboarding/mes_onboarding/settings.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 33731
+"GET /media/user-id-file/IMG_0987.png HTTP/1.1" 200 7688804
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Not Found: /
+"GET / HTTP/1.1" 404 2159
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2210
+Watching for file changes with StatReloader
+BusinessDetailsCustomSerializer(data=<QueryDict: {'userid': ['6'], 'companyName': ['Animo'], 'businessRegistrationNumber': ['T220001'], 'natureOfBusiness': ['Selling IT Gadgets'], 'phoneNumber': ['0557881327'], 'streetAddress': ['ST27 Avenue Road'], 'postalAddress': ['P. O. Box 67'], 'alternatePhoneNumber': ['0269008514'], 'numberOfDirectors': ['2'], 'certCompanyProfile': [<InMemoryUploadedFile: MESTECH KYC.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>], 'certOfCorporation': [<InMemoryUploadedFile: FATMOH GHANA LIMITED PROFILE.pdf (application/pdf)>], 'certCommenceBusiness': [<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>], 'userIdFile': [<InMemoryUploadedFile: darkSunglasses.jpg (image/jpeg)>], 'directorIDs': [<InMemoryUploadedFile: elegance.jpg (image/jpeg)>, <InMemoryUploadedFile: female.jpg (image/jpeg)>]}>):
+    userid = IntegerField()
+    companyName = CharField(max_length=255)
+    businessRegistrationNumber = CharField(max_length=255)
+    natureOfBusiness = CharField(max_length=255)
+    phoneNumber = CharField(max_length=255)
+    streetAddress = CharField(max_length=255)
+    postalAddress = CharField(max_length=255)
+    alternatePhoneNumber = CharField(max_length=255)
+    numberOfDirectors = CharField(max_length=255)
+Director IDs are 
+[]
+Each file ...
+elegance.jpg
+Each file ...
+female.jpg
+About to send response
+"POST /api/onboard/business-details/ HTTP/1.1" 200 1306
+Not Found: /
+"GET / HTTP/1.1" 404 2159
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+"GET /media/user-id-file/darkSunglasses.jpg HTTP/1.1" 200 10292
+"GET /media/user-id-file/manonphones.png HTTP/1.1" 200 5503808
+"OPTIONS /api/onboard/download-file/ HTTP/1.1" 200 0
+Valid request
+File name retrieved is 
+FATMOH_GHANA_LIMITED_PROFILE.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 439204
+Valid request
+File name retrieved is 
+Bede_Adawe_Abbe_Resume_-_Software_Engineer.docx_7Lz14Rh.pdf
+"POST /api/onboard/download-file/ HTTP/1.1" 200 105015
+Valid request
+File name retrieved is 
+MESTECH_KYC_Rlaao2E.docx
+"POST /api/onboard/download-file/ HTTP/1.1" 200 16684
+"OPTIONS /api/onboard/authorize-business/ HTTP/1.1" 200 0
+About to send response
+"POST /api/onboard/authorize-business/ HTTP/1.1" 200 1237
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+Not Found: /
+"GET / HTTP/1.1" 404 2159
+/Users/bedeabbe/Desktop/projects/python/mes_onboarding/onboard/views.py changed, reloading.
+Watching for file changes with StatReloader
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915
+About to fetch business details
+Sending response
+"GET /api/onboard/get-business-details/ HTTP/1.1" 200 34915

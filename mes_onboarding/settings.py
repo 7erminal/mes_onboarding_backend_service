@@ -26,7 +26,7 @@ SECRET_KEY = 'hv5p@mnb!=+wg)^vprn)e#a)96(8z+^%*awxmytlznf+h&#m8i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','15.236.128.186']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','185.249.227.127']
 
 
 # Application definition
@@ -114,8 +114,8 @@ DATABASES = {
         # 'PASSWORD': 'password',
         # 'USER': 'root',
         # 'PASSWORD': 'commander&Chief87',
-        'USER': 'recon',
-        'PASSWORD': 'T34m1na!2@123',
+        'USER': 'mes',
+        'PASSWORD': 'Mtts33R@16JuN3LLb',
         #'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock',
         'PORT': '3306',
 
