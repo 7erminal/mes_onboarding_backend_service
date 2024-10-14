@@ -3,10 +3,11 @@ from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework import status, viewsets
 from django.http import FileResponse, Http404
+import datetime
 
 from onboard.serializers import BusinessDetailsSerializer, BusinessDetailsCustomSerializer, BusinessDetailsAuthorizeSerializer, BusinessDetailsResponseSerializer, DownloadFileSerializer, DirectorImagesRequestSerializer, DirectorImagesResponseSerializer
 from onboard.models import BusinessDetails, DirectorIds
-from onboard.models_existing import Users
+from onboard.models_existing import Users, Shops, Customers
 
 import logging
 
@@ -97,10 +98,30 @@ class AuthorizeBusiness(viewsets.ViewSet):
             message = "AUTHORIZED"
             
             if command=="ACCEPT":
+                businessEnt = Shops(
+                     shop_name=business.companyName,
+                     shop_description=business.natureOfBusiness,
+                     date_created=datetime.datetime.now(),
+                     created_by=1,
+                     active=1
+                )
+
+                businessEnt.save()
+
                 business.active = 1
                 user.active = 1
                 user.is_verified = 1
                 user.save(update_fields=['active','is_verified'])
+
+                customer = Customers(user=user)
+                customer.shop = businessEnt
+                customer.active = customer.active
+                customer.date_created = customer.date_created
+                customer.date_modified = datetime.datetime.now(),
+                customer.created_by = customer.created_by,
+                customer.modified_by = 1
+
+                customer.save()
             elif command=="REJECT":
                  business.active = 6
                  status_ = 400
