@@ -26,7 +26,7 @@ SECRET_KEY = 'hv5p@mnb!=+wg)^vprn)e#a)96(8z+^%*awxmytlznf+h&#m8i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','185.249.227.127']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','185.249.227.127','mestechgh.com','admin.mestechgh.com','client.mestechgh.com']
 
 
 # Application definition
